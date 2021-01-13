@@ -7,6 +7,7 @@ import (
 )
 
 // NOTE: using blang/semver package, not golang/semver
+// ties to https://docs.google.com/document/d/15pp3gZ4ipShEtLR89RKU7jthNBrX7x_384_xsVXtp_E/edit (RH Only)
 
 func getTimeStamp() string {
 	t := time.Now().In(time.UTC)
